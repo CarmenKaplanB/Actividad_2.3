@@ -1,0 +1,40 @@
+$def with(result)
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <!-- ETIQUETAS REQUERIDAS -->
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- OBTENCION DE ESTILOS - BULMA -->
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+        <title>Regresion Lineal</title>
+        
+    </head>
+    
+    <body>
+        <section class="hero is-fullwidth is-light is-family-monospace is-bold">
+            <img src="https://raw.githubusercontent.com/MariaDelCarmenHernandezDiaz/Actividad_2.3/main/Capturas/Brown%20Minimalist%20Abstract%20Shape%20Desktop%20Wallpaper.png" width="1920" height="700" alt="Be eco 1">
+          </section>
+        <center>  
+        <br>    
+        <h1>Actividad 2.3</h1>
+        <br>    
+        </center>
+
+        <form method="POST">
+            <input class="input is-danger is-medium is-rounded" type="number" name="x" id="x" placeholder="Introduce un numero para X">
+            <input class="input"  type="submit" value="Predecir">
+        </form>
+            </center>
+
+        $if result != None:
+            $result
+            
+    </body>
+</html>
